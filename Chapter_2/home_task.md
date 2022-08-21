@@ -30,9 +30,15 @@ print(user.lstrip())
 user = " \n\tvadym   "
 print(user.rstrip())
 ## EX 2-8
-
+print( (2 + 2) * 2)
+print(2 + 2 + 2 * 2)
+print(8 * 1)
+print(2**2*2)
 ## EX 2-9
-
+age = 25
+message = "Happy " + str(age) + "rd Birthday!"
+print(message)
 ## EX 2-10
-
+#I add this comment at 1:06 am to the one who loves Python.
 ## EX 2-11
+import this
