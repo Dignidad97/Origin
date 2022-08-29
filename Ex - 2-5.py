@@ -1,1 +1,0 @@
-print('Winston Churchill once said "We shall fight on the beaches, we shall fight on the landing grounds, \nwe shall fight in the fields and in the streets, we shall fight in the hills..."')
