@@ -24,3 +24,11 @@ print('hello, world')
 ## Ex 2-5
 
 ## EX 2-6
+```
+name = ("Dima")
+print("Hello " +  name + "," + " would you like to learn some Python today?")
+```
+
+
+
+
