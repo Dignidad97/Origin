@@ -1,26 +1,25 @@
-
-
 friends = ['дмитро', 'анастасія', 'сашко']
-print('Любий, ' + friends[0].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Люба, ' + friends[1].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Любий, ' + friends[2].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('\n')
-print(friends[2].title() + ' на жаль, прийти не зможе.')
-print('\n')
 friends[2] = 'данило'
-print('Любий, ' + friends[0].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Люба, ' + friends[1].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Любий, ' + friends[2].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
+friends.insert(0, 'іван')
+friends.insert(2, 'владислав')
+friends.append('аліна')
+notif = "Мені дуже не зручно, але на вечерю будуть запрошені лише двоє... "
+print(notif)
 print('\n')
-print('Гостей буде більше, адже мені таки вдалось придбати новий стіл!')
+notif_2 = "Вибач, "
+notif_3 = ", але я змушений скасувати твоє запрошення. Вибач за незручності."
+person = friends.pop()
+print(notif_2 + person.title() + notif_3)
+person_1 = friends.pop()
+print(notif_2 + person_1.title() + notif_3)
+person_2 = friends.pop()
+print(notif_2 + person_2.title() + notif_3)
+person_3 = friends.pop()
+print(notif_2 + person_3.title() + notif_3)
 print('\n')
-friends.insert(0, 'Іван')
-friends.insert(2, 'Владислав')
-friends.append('Аліна')
-print('Любий, ' + friends[0].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Люба, ' + friends[1].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Любий, ' + friends[2].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Любий, ' + friends[3].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Люба, ' + friends[4].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-print('Любий, ' + friends[5].title() + ', я хочу запросити тебе на вечерю! Чекаю на зустріч!')
-
+notif_4 = ", наша вечірка в силі. чекаю на зустріч!"
+print(friends[0].title() + notif_4)
+print(friends[1].title() + notif_4)
+del friends[0]
+del friends[0]
+print(friends)
