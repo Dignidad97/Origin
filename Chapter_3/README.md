@@ -122,9 +122,12 @@ print('Любий, ' + friends[5].title() + ', я хочу запросити т
 
 Любий, Аліна, я хочу запросити тебе на вечерю! Чекаю на зустріч!
 
+notif = (Мені дуже не зручно, але список гостей )
 
-
-
+current_letter = friends.pop(0)
+current_letter = friends.pop(1)
+current_letter = friends.pop(2)
+current_letter = friends.pop(3)
 
 
 
